@@ -6,7 +6,7 @@
 /*   By: echerell <echerell@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/09 20:26:01 by echerell          #+#    #+#             */
-/*   Updated: 2022/05/09 21:41:17 by echerell         ###   ########.fr       */
+/*   Updated: 2022/05/09 22:52:42 by echerell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include "iter.hpp"
 
 template<typename T>
-void	display(T &cell)
+void	display(const T &cell)
 {
 	std::cout << cell << std::endl;
 }
